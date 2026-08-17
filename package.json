@@ -1,0 +1,22 @@
+{
+  "name": "deepseek-harness-study-docs",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness 渐进式二次开发学习文档站",
+  "scripts": {
+    "dev": "vitepress dev . --host 127.0.0.1 --port 5180",
+    "build": "vitepress build .",
+    "preview": "vitepress preview . --host 127.0.0.1 --port 4180",
+    "deploy": "node scripts/deploy-github-pages.mjs"
+  },
+  "devDependencies": {
+    "@braintree/sanitize-url": "^7.1.2",
+    "cytoscape": "^3.34.1",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "dayjs": "^1.11.21",
+    "debug": "^4.4.3",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}
