@@ -90,7 +90,6 @@ const stages: StageGroup[] = [
 /** 顶部导航栏条目。 */
 const nav: DefaultTheme.NavItem[] = [
   { text: '学习路径', link: '/' },
-  { text: '为什么做这个站', link: '/why-this-site' },
   { text: '术语表', link: '/appendix-glossary' },
   { text: '源码速查', link: '/appendix-source-map' },
   { text: '主仓', link: 'https://github.com/deepseek-ai/deepseek-harness' },
